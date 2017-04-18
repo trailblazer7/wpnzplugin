@@ -1,0 +1,105 @@
+/* Plugin styles */
+#namaz-plugin {
+	max-width: 420px;
+	padding: 5px 0 10px;
+	margin: 0 auto;
+	color: #333;
+	position: relative;
+} 
+
+.np-top-wrap, .np-mid-wrap {
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.np-mid-wrap {
+	padding-bottom: 9px;
+	padding-top: 8px;
+	margin-bottom: 14px;
+	background: url(../images/grad.jpg) center bottom no-repeat;
+}
+
+.np-time-block {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.np-time-block .np-time {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.np-time-block .np-time-title {
+	font-weight: bold;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.np-info-block {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.np-text-block {
+	text-align: center;
+	line-height: 21px;
+}
+
+.np-error-mess {
+	position: absolute;
+	top: 30px;
+	color: red;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.np-time-block .np-icon {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.np-widget-select {
+	height: 23px;
+	width: 110px;
+	padding: 0px;
+}
+
+#namaz-plugin-date-select.np-widget-select {
+	width: 120px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	.np-top-wrap {
+		font-size: 13px;
+	}
+
+	.np-time-block .np-time-title {
+		font-size: 12px;
+	}
+
+	.np-time-block .np-time {
+		font-size: 12px;
+	}
+
+	.np-time-block .np-icon,
+	.np-time-block .np-icon img {
+		width: 48px;
+		height: 48px;
+	}
+
+	#namaz-plugin-date-select.np-widget-select {
+		width: 100px;
+		font-size: 13px;
+	}
+
+	.np-widget-select {
+		width: 90px;
+		font-size: 13px;
+	}
+ }
